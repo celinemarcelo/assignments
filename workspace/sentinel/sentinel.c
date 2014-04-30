@@ -6,12 +6,6 @@
  */
 
 
-/*
- * MGsentinel.c
- *
- *  Created on: Apr 29, 2014
- *      Author: celine
- */
 
 #include <stdio.h>
 int main (void)
