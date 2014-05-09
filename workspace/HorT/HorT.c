@@ -22,7 +22,7 @@ int main (void){
 	hCounter = 0;
 	counter = 0;
 
-	while (counter <=100){
+	while (counter < 100){
 		side = flip ();
 
 		switch (side){
