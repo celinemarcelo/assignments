@@ -12,7 +12,6 @@
 int flip (void);
 
 
-
 int main (void){
 	int counter, tCounter, hCounter;
 	int side;
@@ -30,11 +29,13 @@ int main (void){
 			case 0:
 				++tCounter;
 				++counter;
+				printf("Tails\n");
 				break;
 
 			case 1:
 				++hCounter;
 				++counter;
+				printf("Heads\n");
 				break;
 			}
 	}
