@@ -22,19 +22,18 @@ int main (void){
 	hCounter = 0;
 	counter = 0;
 
-	while (counter <=100){
+	while (counter < 100){
 		side = flip ();
+		++counter;
 
 		switch (side){
 			case 0:
 				++tCounter;
-				++counter;
 				printf("Tails\n");
 				break;
 
 			case 1:
 				++hCounter;
-				++counter;
 				printf("Heads\n");
 				break;
 			}
